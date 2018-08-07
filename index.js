@@ -32,7 +32,7 @@ function appendKitten() {
 
 function prependKitten() {
   var kittens2 = [`Arnold` , ...kittens]
-  return kittens
+  return kittens2
 }
 
 function removeLastKitten() {
