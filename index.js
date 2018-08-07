@@ -30,8 +30,8 @@ function appendKitten() {
   return kittens.concat(`Broom`)
 }
 
-function prependKitten() {
-  return kittens.splice(0 , 0 ,`Arnold`)
+function prependKitten(name) {
+  return kittens = [name , ...kittens]
 }
 
 function removeLastKitten() {
