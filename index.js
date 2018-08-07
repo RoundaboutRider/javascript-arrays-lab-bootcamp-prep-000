@@ -30,7 +30,7 @@ function appendKitten() {
   return kittens.concat(`Broom`)
 }
 
-function prependKitten(name) {
+function prependKitten() {
   return kittens = [`Arnold` , ...kittens]
 }
 
